@@ -1,0 +1,401 @@
+{
+	"info": {
+		"_postman_id": "15db51b4-08b2-400d-bcdd-1a6d7fbe346a",
+		"name": "TL21-05 Postman Testing Script",
+		"description": "# Introduction\n\nThis API serves the purpose of interoperability between motorway toll station operators. Specifically, it collects data of passes among all the toll stations in the greek road network and calculates the sum owed between providers filtered by time periods.\n\n# Overview\n\nThe aim of this API is to analyze the passes and help the providers settle their financial differences. It does not record passes, but rather is given that information through a database.\n\n# Authentication\n\nWhat is the preferred way of using the API? //TBD\n\n# Error Codes\n\nThe following error codes have been implemented:\n\n200 - Success  \n400 - Bad request  \n401 - Not authorized  \n402 - No data  \n500 - Internal server error (other)\n\n# Rate limit\n\nThere is no limit to the number of requests a user can send.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "healthcheck test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/admin/healthcheck",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"admin",
+						"healthcheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resetstations test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/admin/resetstations",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"admin",
+						"resetstations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resetvehicles test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/admin/resetvehicles",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"admin",
+						"resetvehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PassesPerStation test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO00/20171213/20211213",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO00",
+						"20171213",
+						"20211213"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PassesPerStation empty test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO00/20241213/20241214",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO00",
+						"20241213",
+						"20241214"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PassesPerStation empty test 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO55/20191213/20211213",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO55",
+						"20191213",
+						"20211213"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PassesPerStation bad request test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO00/20201213/01011990",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO00",
+						"20201213",
+						"01011990"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PassesAnalysis test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesAnalysis/AO/GF/20201213/20211213",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesAnalysis",
+						"AO",
+						"GF",
+						"20201213",
+						"20211213"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PassesCost test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesCost/AO/GF/20201213/20211213",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesCost",
+						"AO",
+						"GF",
+						"20201213",
+						"20211213"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ChargesBy test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/ChargesBy/AO/20201213/20211213",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"ChargesBy",
+						"AO",
+						"20201213",
+						"20211213"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PassesPerStation csv test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO00/20171213/20211213?format=csv",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO00",
+						"20171213",
+						"20211213"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "csv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PassesAnalysis csv test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesAnalysis/AO/GF/20201213/20211213?format=csv",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesAnalysis",
+						"AO",
+						"GF",
+						"20201213",
+						"20211213"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "csv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PassesPerStations csv test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO00/20171213/20211213?format=csv",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO00",
+						"20171213",
+						"20211213"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "csv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ChargesBy csv test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/ChargesBy/AO/20201213/20211213?format=csv",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"ChargesBy",
+						"AO",
+						"20201213",
+						"20211213"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "csv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resetpasses test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/admin/resetpasses",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"admin",
+						"resetpasses"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

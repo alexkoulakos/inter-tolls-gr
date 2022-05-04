@@ -1,0 +1,528 @@
+{
+	"info": {
+		"_postman_id": "045eabc9-017d-449e-8e8f-80d67271dc3d",
+		"name": "Error Codes Passes Per Station",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "NoSuchProvider",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"No Such Provider\", function () {",
+							"    pm.response.to.have.status(402)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/LN00/20190101/20200101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"LN00",
+						"20190101",
+						"20200101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NoSuchStation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"No Such Provider\", function () {",
+							"    pm.response.to.have.status(402)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO20/20190101/20200101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO20",
+						"20190101",
+						"20200101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NoDataInTheGivenPeriod",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"No data in the given period\", function () {\r",
+							"    pm.response.to.have.status(402)\r",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesCost/AO/GF/20170101/20180101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesCost",
+						"AO",
+						"GF",
+						"20170101",
+						"20180101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SwappedPeriodFromAndTo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"swapped periodFrom and periodTo\", function () {",
+							"    pm.response.to.have.status(402)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO00/20200101/20190101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO00",
+						"20200101",
+						"20190101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BadStationFormat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Bad Station Format\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AOF21/20190101/20200101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AOF21",
+						"20190101",
+						"20200101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BadStationFormat_v2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Bad Station Format vol.2\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/A21/20190101/20200101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"A21",
+						"20190101",
+						"20200101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BadStationFormat_v3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Bad Station Format vol.3\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO/20190101/20200101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO",
+						"20190101",
+						"20200101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BadDateFormat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Bad Date Format\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO01/2019-01-01/20200101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO01",
+						"2019-01-01",
+						"20200101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BadDateFormat_v2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Bad Date Format\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO01/01012019/01012020",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO01",
+						"01012019",
+						"01012020"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BadDateFormat_v3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Bad Date Format\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO01/112019/01012020",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO01",
+						"112019",
+						"01012020"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BadDateFormat_v4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Bad Date Format\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO01/15158040/20200101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO01",
+						"15158040",
+						"20200101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BadDateFormat_v5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Bad Date Format\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO01/20190132/20200101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO01",
+						"20190132",
+						"20200101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MissingStation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Missing Station\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/20190101/20200101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"20190101",
+						"20200101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MissingDate",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Missing Date\", function () {",
+							"    pm.response.to.have.status(400)",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:9103/interoperability/api/PassesPerStation/AO01/20190101",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "9103",
+					"path": [
+						"interoperability",
+						"api",
+						"PassesPerStation",
+						"AO01",
+						"20190101"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

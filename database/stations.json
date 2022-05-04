@@ -1,0 +1,589 @@
+[{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301557"
+  },
+  "stationID": "AO00",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 00"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301558"
+  },
+  "stationID": "AO01",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 01"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301559"
+  },
+  "stationID": "AO02",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 02"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730155a"
+  },
+  "stationID": "AO03",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 03"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730155b"
+  },
+  "stationID": "AO04",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 04"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730155c"
+  },
+  "stationID": "AO05",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 05"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730155d"
+  },
+  "stationID": "AO06",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 06"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730155e"
+  },
+  "stationID": "AO07",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 07"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730155f"
+  },
+  "stationID": "AO08",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 08"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301560"
+  },
+  "stationID": "AO09",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 09"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301561"
+  },
+  "stationID": "AO10",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 10"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301562"
+  },
+  "stationID": "AO11",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 11"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301563"
+  },
+  "stationID": "AO12",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 12"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301564"
+  },
+  "stationID": "AO13",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 13"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301565"
+  },
+  "stationID": "AO14",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 14"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301566"
+  },
+  "stationID": "AO15",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 15"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301567"
+  },
+  "stationID": "AO16",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 16"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301568"
+  },
+  "stationID": "AO17",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 17"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301569"
+  },
+  "stationID": "AO18",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 18"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730156a"
+  },
+  "stationID": "AO19",
+  "stationProvider": "aodos",
+  "stationName": "aodos tolls station 19"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730156b"
+  },
+  "stationID": "GF00",
+  "stationProvider": "gefyra",
+  "stationName": "gefyra tolls station 00"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730156c"
+  },
+  "stationID": "EG00",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 00"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730156d"
+  },
+  "stationID": "EG01",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 01"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730156e"
+  },
+  "stationID": "EG02",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 02"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730156f"
+  },
+  "stationID": "EG03",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 03"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301570"
+  },
+  "stationID": "EG04",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 04"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301571"
+  },
+  "stationID": "EG05",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 05"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301572"
+  },
+  "stationID": "EG06",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 06"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301573"
+  },
+  "stationID": "EG07",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 07"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301574"
+  },
+  "stationID": "EG08",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 08"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301575"
+  },
+  "stationID": "EG09",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 09"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301576"
+  },
+  "stationID": "EG10",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 10"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301577"
+  },
+  "stationID": "EG11",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 11"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301578"
+  },
+  "stationID": "EG12",
+  "stationProvider": "egnatia",
+  "stationName": "egnatia tolls station 12"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301579"
+  },
+  "stationID": "KO00",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 00"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730157a"
+  },
+  "stationID": "KO01",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 01"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730157b"
+  },
+  "stationID": "KO02",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 02"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730157c"
+  },
+  "stationID": "KO03",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 03"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730157d"
+  },
+  "stationID": "KO04",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 04"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730157e"
+  },
+  "stationID": "KO05",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 05"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730157f"
+  },
+  "stationID": "KO06",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 06"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301580"
+  },
+  "stationID": "KO07",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 07"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301581"
+  },
+  "stationID": "KO08",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 08"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301582"
+  },
+  "stationID": "KO09",
+  "stationProvider": "kentriki_odos",
+  "stationName": "kentriki_odos tolls station 09"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301583"
+  },
+  "stationID": "MR00",
+  "stationProvider": "moreas",
+  "stationName": "moreas tolls station 00"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301584"
+  },
+  "stationID": "MR01",
+  "stationProvider": "moreas",
+  "stationName": "moreas tolls station 01"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301585"
+  },
+  "stationID": "MR02",
+  "stationProvider": "moreas",
+  "stationName": "moreas tolls station 02"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301586"
+  },
+  "stationID": "MR03",
+  "stationProvider": "moreas",
+  "stationName": "moreas tolls station 03"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301587"
+  },
+  "stationID": "MR04",
+  "stationProvider": "moreas",
+  "stationName": "moreas tolls station 04"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301588"
+  },
+  "stationID": "MR05",
+  "stationProvider": "moreas",
+  "stationName": "moreas tolls station 05"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301589"
+  },
+  "stationID": "MR06",
+  "stationProvider": "moreas",
+  "stationName": "moreas tolls station 06"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730158a"
+  },
+  "stationID": "MR07",
+  "stationProvider": "moreas",
+  "stationName": "moreas tolls station 07"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730158b"
+  },
+  "stationID": "MR08",
+  "stationProvider": "moreas",
+  "stationName": "moreas tolls station 08"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730158c"
+  },
+  "stationID": "NE00",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 00"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730158d"
+  },
+  "stationID": "NE01",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 01"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730158e"
+  },
+  "stationID": "NE02",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 02"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730158f"
+  },
+  "stationID": "NE03",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 03"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301590"
+  },
+  "stationID": "NE04",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 04"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301591"
+  },
+  "stationID": "NE05",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 05"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301592"
+  },
+  "stationID": "NE06",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 06"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301593"
+  },
+  "stationID": "NE07",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 07"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301594"
+  },
+  "stationID": "NE08",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 08"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301595"
+  },
+  "stationID": "NE09",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 09"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301596"
+  },
+  "stationID": "NE10",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 10"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301597"
+  },
+  "stationID": "NE11",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 11"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301598"
+  },
+  "stationID": "NE12",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 12"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce7301599"
+  },
+  "stationID": "NE13",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 13"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730159a"
+  },
+  "stationID": "NE14",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 14"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730159b"
+  },
+  "stationID": "NE15",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 15"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730159c"
+  },
+  "stationID": "NE16",
+  "stationProvider": "nea_odos",
+  "stationName": "nea_odos tolls station 16"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730159d"
+  },
+  "stationID": "OO00",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 00"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730159e"
+  },
+  "stationID": "OO01",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 01"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce730159f"
+  },
+  "stationID": "OO02",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 02"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a0"
+  },
+  "stationID": "OO03",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 03"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a1"
+  },
+  "stationID": "OO04",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 04"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a2"
+  },
+  "stationID": "OO05",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 05"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a3"
+  },
+  "stationID": "OO06",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 06"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a4"
+  },
+  "stationID": "OO07",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 07"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a5"
+  },
+  "stationID": "OO08",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 08"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a6"
+  },
+  "stationID": "OO09",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 09"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a7"
+  },
+  "stationID": "OO10",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 10"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a8"
+  },
+  "stationID": "OO11",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 11"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015a9"
+  },
+  "stationID": "OO12",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 12"
+},{
+  "_id": {
+    "$oid": "61c086799cd22b0ce73015aa"
+  },
+  "stationID": "OO13",
+  "stationProvider": "olympia_odos",
+  "stationName": "olympia_odos tolls station 13"
+}]
